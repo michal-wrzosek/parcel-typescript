@@ -25,12 +25,15 @@
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
     "gh-pages": "^3.1.0",
-    "parcel-bundler": "^1.6.1",
+    "parcel-bundler": "^1.12.4",
     "prettier": "^2.1.2",
     "typescript": "^4.0.5"
   },
   "keywords": [
     "typescript",
     "javascript"
-  ]
+  ],
+  "resolutions": {
+    "**/node-forge": "0.10.0"
+  }
 }
