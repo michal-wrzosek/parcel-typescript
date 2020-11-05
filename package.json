@@ -1,0 +1,36 @@
+{
+  "name": "parcel-typescript",
+  "version": "1.0.0",
+  "author": "Michal Wrzosek <michal@wrzosek.pl>",
+  "homepage": "https://michal.wrzosek.github.io/parcel-typescript",
+  "license": "MIT",
+  "main": "index.html",
+  "engines": {
+    "yarn": "1.22",
+    "npm": "PLEASE USE YARN INSTEAD OF NPM!",
+    "node": "12.18"
+  },
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.6.1",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ]
+}
